@@ -10,8 +10,8 @@ export interface User {
 @Injectable({ providedIn: 'root' })
 export class AuthService {
   private _user = new BehaviorSubject<User | null>({
-    displayName: 'Jorge Perez',
-    email: 'jorge@example.com',
+    displayName: 'Jorge Gonsalez',
+    email: 'jorgegonzales@example.com',
   });
 
   user$ = this._user.asObservable();

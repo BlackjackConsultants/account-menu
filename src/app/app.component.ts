@@ -85,7 +85,7 @@ export class AppComponent {
   }
 
   fakeSignIn() {
-    this.auth.signInFake({ displayName: 'Jorge Perez', email: 'jorge@example.com' });
+    this.auth.signInFake({ displayName: 'Jorge Gonsalez', email: 'jorgegonzales@example.com' });
     this.snack.open('Signed in', undefined, { duration: 1200 });
   }
 }
